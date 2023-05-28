@@ -1,0 +1,598 @@
+@import url('../fonts/BEYNO.ttf');
+@import url('../fonts/Cantarell-Bold.ttf');
+@import url('../fonts/Cantarell-BoldItalic.ttf');
+@import url('../fonts/Cantarell-Italic.ttf');
+@import url('../fonts/Cantarell-Regular.ttf');
+@import url('../fonts/PantheraRegular-MVZ9J.ttf');
+@import url('../fonts/WakandaForever-Regular.ttf');
+@font-face {
+    font-family: "BEYNO";
+    src: url('../fonts/BEYNO.ttf');
+}
+@font-face {
+    font-family: "Cantarell";
+    src: url('../fonts/Cantarell-Regular.ttf');
+}
+@font-face {
+    font-family: "PantheraRegular-MVZ9J";
+    src: url('../fonts/PantheraRegular-MVZ9J.ttf');
+}
+@font-face {
+    font-family: "WakandaForever";
+    src: url('../fonts/WakandaForever-Regular.ttf');
+}
+
+ body main{
+    background-image: url("../images/arrière_plan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: thistle;
+}
+/*Header */
+
+header {
+    align-items: center;
+    overflow: auto;
+    margin-bottom: -239px;
+    padding-bottom: 50px;
+
+}
+
+.logo img {
+    height: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 125px;
+}
+header .navbar1 ul{
+  float: right;
+  margin-right: 150px;
+  vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #ffffff;
+    font-family:"BEYNO";
+    font-size: 13px;
+}
+
+nav li a:hover {
+    color: #3D2DA6;
+}
+
+    
+.double-line {
+        width: 2px;
+        height: 100px;
+        background-color: white;
+        position: relative;
+      }
+      
+.double-linedouble-line2{
+        display: flex;
+      }
+.double-line {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 200px;
+        background-color:#9E91B7 ;
+        top: 2;
+        margin-left: 60px;
+        margin-top: 120px  ;
+    
+      }
+      
+.double-line2 {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 345px;
+        background-color:#9E91B7 ;
+        top: 2;
+        margin-left: 35px;
+        margin-top: 120px  ;
+        
+      }
+      
+.D img{
+        display: flex;
+        flex-direction: column;
+        margin-left: 43px ;
+        margin-top: 14px;
+        width:17px;
+        padding-bottom: 8px;
+        
+
+}
+
+.D{
+        margin-top: 220px;
+      }
+
+body  .iconn{
+  margin-top: 100px;
+}
+
+.sary1 {
+        background-image: url("../images/Pantherhome1..png");
+        height: 450px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-top: 20px;
+        
+      }
+
+
+    body .sect1 {
+        background-size: 50%;
+        background-position: right;
+        margin-left: 10px ;
+        
+        padding-right: 700px;
+
+      }
+
+     body .sect1 h1{
+        font-family: "panthera";
+        font-size: 50px;
+        color: #9E91B7;
+        padding-top: 100px;
+
+       
+     }
+      body .sect1 h2{
+        font-family: "BEYNO";
+        font-size: 25px;
+        color: #9E91B7;
+     }
+
+     body .sect1 p{
+        font-family: "Cantarell";
+        font-size: 10px;
+        color: #ffffff;
+        width: 350px;
+        margin-top: 20px;
+     }
+
+     body .inpt{
+        background-color: transparent;
+        color: #ffffff;
+        border: none;
+        font-family: "Cantarell";
+        font-size: 12px;
+        margin-left: -5px;
+     }
+
+     body .sect1 input:hover{
+        color: #9E91B7;
+
+     }
+
+     
+
+
+/*section 2 */
+
+.sect2 .col2{
+  background-color: #021740;
+  
+}
+
+.sect2 .lgn1{
+  height: 200px;
+  background-color: #021740;
+  margin-left: 100px;
+  margin-bottom: 150px;
+  
+}
+
+
+
+.sect2 .cool11{
+  height: 200px;
+  background-color: #021740;
+}
+.sect2 .lgn1 .cool12{
+  height: 200px;
+  padding-left: 90px;
+  margin-top: 30px;
+  
+}
+
+
+
+.sect2 .Pantherhome2{
+  margin-top: -30px;
+  height: 280px;
+  margin-left: 15px;
+  z-index: 0;!Important
+}
+
+.col-lg-4 .Pantherhome2 {
+  width: 100%;
+  margin-left: 155px;
+       
+}
+
+.col-lg-8 {
+  padding:10%;
+  margin-left: 300px ;
+  margin-top: -225px;
+}
+
+
+      
+.cool2 .Pantherhome3 {
+  height:200px ;
+ margin-left: -40px;
+
+
+}
+
+.be {
+  margin-left: 160px ;
+}
+
+.titre2{
+  font-family: "BEYNO";
+  font-size: 18px;
+  color: #9E91B7 ;
+}
+.p1{
+  font-family: "Cantarell";
+  font-size: 10px;
+  color: #ffffff;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.sect2 .cool1 .cool12 .p11{
+  padding-right: 80px;
+}
+
+.cool12 {
+  text-align: justify;
+}
+
+.sect2 .cool2 .cool22 .p11{
+  padding-right: 70px;
+}
+
+.cool22 {
+   margin-top: 30px;
+  text-align: justify;
+  margin-left: -45px;
+}
+
+.cool2 .Pantherhome4 {
+  position: absolute;
+  height:200px ;
+   margin-left: 165%;
+
+}
+
+.cool2 .Pantherhome44 {
+  position: absolute;
+  border-radius: 50%;
+  height:30px ;
+  width: 30px;
+  background-color: #021740;
+  color: white;
+  text-align: center;
+  z-index: 0;
+  font-size: 20px;
+  margin-left: 260%;
+  margin-top: -55%;
+
+}
+
+.cool2 .Pantherhome44 p{
+  margin-top: -2px;
+    
+}
+.p111{
+  text-align: justify;
+  width: 450px;
+}
+
+.fotsy{
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px; 
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  color: #07338C;
+  width: 320px;
+  padding-top: 200px;
+}
+
+.Pantherhome5{
+  margin-left: 30px;
+ width: 260px;
+  margin-bottom: -190px;
+  
+}
+
+.Pantherhome6{
+  width: 350px;
+  margin-top: 45px;
+
+}
+
+
+.boutt{
+  display: flex;
+  margin-left: -45px;
+}
+.btn111{
+  background-color: #3D2DA6;
+  color: white;
+  height: 28px;
+  padding-top: 0 px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  text-align: center;
+  border:none;
+  font-family: "Cantarell";
+  font-size: 8px;
+  color: #ffffff;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+ .titre3{
+  font-family: "Cantarell";
+  font-size: 22px;
+  font-size: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+}
+
+
+.p22{
+  font-family: "Cantarell";
+  font-size: 10px;
+  color: #021740;
+  margin-bottom: 7px;
+}
+
+
+.sect3 .col1{
+  margin-left: -80px  ;
+}
+
+.sect3 .col2{
+  margin-left: 100px;
+}
+
+.sect3{
+  margin-bottom: 0px;
+}
+
+/*Test contact*/
+
+.sectcont{
+  margin: 0;
+
+  padding: 130px;
+  margin-top: 0px;
+  margin-bottom: -35px;
+  background-position: top;
+  background-image: url("../images/Pantherhome7.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contactt{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      margin-top: 50px;
+       margin-left: -150px;
+      margin-right: -150px;
+
+
+}
+
+.contactt .col2{
+      height: 500px;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.00));
+      text-align: center;
+      border-radius: 125px;
+      color: #021740;
+      opacity: 1;
+     
+
+      }
+    
+
+
+.sectcont .col2 input{
+  background-color: transparent;
+  height: 35px;
+  margin-top: 10px;
+  border: solid 1px #021740;
+  border-radius: 20px;
+  width: 300px;
+  font-family: "Cantarell";
+  font-size: 14px;
+
+}
+
+.sectcont .col2 input::placeholder{
+ font-family: "Cantarell";
+font-size: 12px;
+}
+
+.sectcont .ttl{
+  font-family: "Cantarell";
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.sectcont .ttl1{
+  font-family: "Cantarell";
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: -3px;
+}
+
+.sectcont div .mess{
+  border-style: none;
+  height: 150px;
+  
+  padding-top: -50px;
+  margin-top: 25px;
+  vertical-align: top;
+  
+
+
+  background-color: transparent;
+ 
+  margin-top: 10px;
+  border: solid 1px #021740;
+  border-radius: 20px;
+  width: 300px;
+  font-family: "Cantarell";
+  font-size: 14px;
+
+  
+}
+
+.sectcont div .mess::placeholder{
+ font-family: "Cantarell";
+font-size: 12px;
+}
+
+
+
+.sectcont div .btnn{
+  width: 120px;
+  background-color: #F2CEF2;
+   font-family: "Cantarell";
+  font-size: 10px;
+  margin-top: 15px;
+  border: none;
+  
+}
+
+
+
+
+/*footer*/
+footer{
+  background-image: url("../images/back_footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  
+}
+
+footer .col11{
+  text-align: right;
+  padding-right: 150px;
+
+  
+}
+
+footer .img11{
+  width: 200px;
+  margin-right: -110px;
+
+  
+}
+
+footer .img22{
+  width: 100px;
+  margin-left: -50px;
+  margin-top: -10px;
+  
+}
+
+footer a{
+  color: #ffffff;
+}
+
+footer h2{
+  color: #ffffff;
+  font-family:"Cantarell";
+  letter-spacing: 6;
+  font-size: 18px;
+  margin-bottom: 35px;
+  
+}
+
+footer p{
+  font-family:"Cantarell";
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+footer .col2 img{
+  width: 32px;
+  margin-right: 25px;
+}
+
+footer div .copyr{
+  display: flex;
+  margin-top: 50px;
+  color: white;
+
+}
+
+footer div .copyr ul{
+  display: flex;
+  margin-top: -10px;
+  margin-left: -38px;
+
+  
+}
+
+footer div .copyr li{
+  font-family:"Cantarell";
+  font-size: 10px;
+  margin-right: 25px;
+}
+
+footer div .copyr p{
+  font-family:"Cantarell";
+  font-size: 10px;
+  margin-right: 25px;
+}
+
+footer .col1 a:hover{
+color: #3D2DA6;
+}
+
+.inpt:hover{
+color: #3D2DA6;
+text-decoration: underline;
+}
+
+.btn111:hover{
+  cursor: m;
+}
