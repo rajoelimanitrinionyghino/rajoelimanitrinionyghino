@@ -1,0 +1,620 @@
+
+@import url('../font/Rajdhani-Bold.ttf');
+@import url('../font/Rajdhani-Light.ttf');
+@import url('../font/Rajdhani-Medium.ttf');
+@import url('../font/Rajdhani-Regular.ttf');
+@import url('../font/Rajdhani-Regular.ttf');
+@font-face {
+    font-family: "Rajdhani";
+    src: url('../font/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: "Spacegrotesk";
+    src: url('../font/SpaceGrotesk-VariableFont_wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+.colored_bg{
+    margin: auto;
+    padding: 0;
+
+    }
+.container{
+    padding: 0;
+    }
+
+.hometxt{
+    text-align: right;
+   
+}
+.nav-link{
+     margin-left : 15%;
+}
+.nav-link2{
+    color: white;
+    font-size: 25px;
+    font-family: "Rajdhani";
+    font-weight: bold;
+
+   
+}
+.head11{
+    background-image: url("../images/Bathome1.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+
+    }
+.header{
+    height:700px;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.header-container{
+    max-width: 500px;
+}
+.button-container{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button-header .btn-header a{
+    background: linear-gradient(to right, #ffffff73 0%, #b11313 100%);
+    opacity: 0.4;
+    margin: 0 15px;
+    padding: 10px 15px;
+    
+}
+
+.button-header a {
+    background: linear-gradient(45deg, #ffffff73 0%, #b11313 100%);
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px
+    
+
+    
+  }
+  
+  .button-header a:hover {
+    opacity: 1;
+  }
+
+
+.text-header{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    font-family: "Spacegrotesk";
+}
+.text-header2{
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    font-family: "Spacegrotesk";
+}
+.titre1{
+    font-family: 'Rajdhani';
+    font-weight: 700;
+    color: #fff;
+    font-size: 28px;
+}
+/* header end */
+
+.arrow-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.story1{
+    padding: 0 10%;
+    display: inline-block;
+}
+.sect1{
+    background-color: black;
+}
+.text{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 200;
+    font-family: "Spacegrotesk";
+}
+.divvv{
+    text-align: justify;
+}
+
+.sect1 
+.heroes{
+    margin-top: 50px;
+}
+
+.txt33{
+    padding-bottom: 70px;
+}
+.image_hero{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    padding: 0 20px;
+}
+.name{
+    text-align: center;
+    font-size: 16px;
+    color:#fff;
+    font-family: "Spacegrotesk";
+    margin-top: 20px;
+}
+.story2{
+    padding: 0 10%;
+    margin-top:50px;
+}
+.story3{
+    padding: 0 10%;
+    margin-top: 50px;
+}
+
+.story4 .description{
+    padding: 50px 10%;
+}
+.centered_text{
+    font-family: "Spacegrotesk";
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.form_section{
+    background-image: linear-gradient(to left, #081D29 0%, #40403B 100%)!important;
+    padding: 50px 0;
+    width: 100%;
+
+}
+
+.sect7777 .checkk{
+    font-size: 45px;
+}
+.form_section label{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Spacegrotesk";
+    margin: 30px 0 10px;
+}
+.form_section .styled-form{
+    font-size: 14px;
+    font-family: "Spacegrotesk";
+    background-color: transparent;
+    border-bottom: 1px solid #ffffff8a;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0;
+    padding: 0;
+    outline: 0;
+}
+.form_section .checkbox_titre{
+    font-size: 14px;
+    color: #495057;
+    font-family: "Spacegrotesk";
+}
+.form_section .form-check-input{
+    margin: 5px 10px;
+}
+.form_section button[type=submit]{
+    background-image: linear-gradient(to right, #ffffff73 0%, #b11313 100%);
+    opacity: 0.8;
+    margin-top: 20px;
+    padding: 15px 60px;
+    font-family: "Rajdhani";
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    letter-spacing: 2px;
+    opacity: 1!important;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+header div ul li{
+     list-style: none;
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+
+}
+header div ul  .logo_retourner{
+    transform: rotate(180deg);
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+
+.titre1,
+.text text22,
+.name,
+.text,
+.h1 {
+    opacity: 0;
+    animation: fade-in 1s ease-out forwards;
+  }
+
+  
+@keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateX(-80px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+.logo_retourner:hover img {
+    opacity: 0,7;
+    
+  }
+
+header  .coll2{
+    display: flex;
+    float: right;
+    padding-left: 250px;
+    margin-right: -250px;
+
+}
+header .coll1{
+    width: 90%;
+     padding-left: 50px;
+
+}
+
+.container.heroes {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .col-sm-4 {
+    width: 33.33%;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .image_hero {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .col-sm-4:hover .image_hero {
+    transform: scale(1.1);
+  }
+  
+  .name {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .years {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+div .sect222{
+    background-color: black;
+    padding-left:200px;
+    padding-right: 200px;
+}
+
+div .row2222 img{
+    width: 15%;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+
+div .sect333{
+    background-image: url("../images/Bathome12.png");
+    background-position: right top;
+    background-repeat:no-repeat;
+    background-size: 30%;
+    background-color: black;
+    padding-left:200px;
+    padding-right: 200px;
+    margin-top: -150px;
+}
+
+div .row3333 h1{
+   
+    padding-top: 250px;
+}
+
+div .sect444{
+    
+    background-color: black;
+    padding-top: 50px;
+    
+}
+div .sect555{
+    
+    background-color: black;
+    padding-top: 50px;
+
+    
+}
+
+div .sect555 h1{
+    color: white;
+    margin-bottom: 50px;
+    
+}
+.sect555{
+    background-color: black;
+
+}
+
+.sect555 h1{
+    margin-left: 100px;
+}
+
+.sect555 .carrou{
+
+ align-items: center;
+ vertical-align: middle;
+ margin-left: 25%;
+  
+}
+
+.sect55555 {
+   
+background-color: black;
+}
+
+.sect555 h1{
+    font-size: 36px;
+    font-family: "Rajdhani";
+    font-weight: bold;
+    
+}
+
+.sect555 .tab1{
+    color: #c4c4c4;
+     
+}
+
+.sect555 table tr .col2{
+    background-color: red;
+    background-image: linear-gradient(650deg, #081D29, #40403B);
+    width: 400px;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+.sect555 .col2{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    
+}
+
+.sect555 .carrou{
+    margin-left: 15%;
+    
+}
+
+.sect555 .tit1{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-family: "Spacegrotesk";
+}
+
+.sect555 img{
+    margin-bottom: -10px;
+}
+
+.sect555 .flech1{
+    padding-right: 100px;
+}
+
+.sect555 .flech2{
+    padding-left: 100px;
+}
+
+
+.sect555 .tit2{
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-family: "Spacegrotesk";
+}
+
+.sect555 .tit3{
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-family: "Spacegrotesk";
+}
+
+.sect555 .pcour{
+    font-size: 12px;
+    font-family: "Spacegrotesk";
+    margin-bottom: 0px;
+
+}
+
+
+.sect555 .tit3 .chiffr{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffff00;
+    font-family: "Spacegrotesk";
+}
+
+
+.sect666 {
+    text-align: center;
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.sect .margin{
+    float: none;
+}
+
+.sect7777{
+    padding-bottom: 150px;
+}
+.sect7777 .contact_btn{
+    
+    padding-left: 35px;
+}
+.sect7777 form .btn1{
+    background-color: transparent;
+    border: solid;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-image-slice: 1;
+    border-width: 2px;
+}
+.sect7777 form .btn11{
+    border-image-source: linear-gradient(to left, #19587D, #c4c4c4);
+    font-size: 12px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.sect7777 div .conf{
+    margin-top: -25px;
+    margin-bottom: -120px;
+}
+
+.sect888{
+    background-color: black;
+    text-align: center;
+    padding-top: 260px;
+    padding-bottom: 150px;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+.sect888 div .guil1{
+    margin-top: -80px;
+    padding-left: 250px;
+    position: 50px ;
+
+}
+
+.sect888 div .guil2{
+    padding-top: 100px;
+    padding-right: 250px;
+    
+
+}
+.sect888 div .textpm{
+    font-family: "Spacegrotesk";
+    font-size: 12px;
+    color: #c4c4c4;
+}
+
+.sect888 div .rond{
+  padding-left: -10px;
+  border-radius:50%;
+  width: 6px;
+  height:6px;
+  border:1px solid #19587d; 
+}
+
+.sect888 div .rond1{
+  padding-left: -10px;
+  border-radius:50%;
+  width: 5px;
+  height:5px;
+  
+  background-color: #19587d;
+}
+
+.sect888 .btnnn{
+    display: flex;
+    margin-left: 48%;
+
+}
+
+.sect888 .btnnnn{
+    align-items: center;
+    align-content: center;
+
+}
+
+.sect888 .btnnn div{
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+
+footer .sect1{
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    align-items: center;
+    color: white;
+
+}
+ footer .wbb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-family: "Spacegrotesk";
+
+ }
+  footer .wbb img{
+    margin-right: 5px;
+    margin-top: -15px;
+ }
+
+ footer .wbb img{
+    margin-right: 10px;
+ }
+
+ footer .logoall img{
+
+    margin-top: 10px;
+    margin-right: 20px;
+ }
+ 
